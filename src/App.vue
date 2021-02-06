@@ -4,11 +4,11 @@
  * @Author: 向北
  * @Date: 2021-01-29 22:12:17
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-01 16:55:47
+ * @LastEditTime: 2021-02-06 15:21:27
 -->
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 

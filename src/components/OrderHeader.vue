@@ -2,15 +2,15 @@
  * @Descripttion: 
  * @version: 
  * @Author: 向北
- * @Date: 2021-02-01 17:17:58
+ * @Date: 2021-02-06 20:19:02
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-06 16:07:30
+ * @LastEditTime: 2021-02-06 20:19:42
 -->
 <template>
-  <div>nav-header</div>
+  <div>order-header</div>
 </template>
 <script>
 export default {
-  name: "nav-header",
+  name: "order-header",
 };
 </script>
