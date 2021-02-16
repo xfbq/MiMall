@@ -4,7 +4,7 @@
  * @Author: 向北
  * @Date: 2021-02-01 17:00:00
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-06 21:56:58
+ * @LastEditTime: 2021-02-12 18:53:26
  */
 // 导入插件
 import Vue from 'vue';
@@ -79,5 +79,6 @@ export default new Router({
     }
   ],
   // linkActiveClass: 'active',
-  mode: 'history'
+  // mode:'history'就没有地址栏的#号，而默认是mode:'hash'有#号
+  // mode: 'history'
 })

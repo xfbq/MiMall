@@ -4,7 +4,7 @@
  * @Author: 向北
  * @Date: 2021-01-29 22:12:17
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-06 15:21:27
+ * @LastEditTime: 2021-02-12 10:27:43
 -->
 <template>
   <div id="app">
@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// import storage from "./storage";
 export default {
   name: "App",
   components: {},
