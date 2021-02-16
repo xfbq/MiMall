@@ -4,7 +4,7 @@
  * @Author: 向北
  * @Date: 2021-01-29 22:12:17
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-12 10:27:43
+ * @LastEditTime: 2021-02-16 17:09:23
 -->
 <template>
   <div id="app">
@@ -18,9 +18,16 @@ export default {
   name: "App",
   components: {},
   data() {
-    return {};
+    return {
+      res: {},
+    };
   },
-  mounted() {},
+  mounted() {
+    //本地加载请求静态json文件的形式
+    this.axios.get("/mock/user/login.json").then((res) => {
+      this.res = res;
+    });
+  },
 };
 </script>
 
