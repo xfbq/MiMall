@@ -7,7 +7,7 @@
  * @LastEditTime: 2021-02-06 20:20:01
 -->
 <template>
-  <div>order-footer</div>
+  <div></div>
 </template>
 <script>
 export default {

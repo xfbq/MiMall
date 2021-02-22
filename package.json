@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode=development",
-    "test":"vue-cli-service serve --mode=test",
-    "prev":"vue-cli-service serve --mode=prev",
+    "test": "vue-cli-service serve --mode=test",
+    "prev": "vue-cli-service serve --mode=prev",
     "build": "vue-cli-service build --mode=production",
     "lint": "vue-cli-service lint"
   },
@@ -18,8 +18,8 @@
     "jsonp": "^0.2.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
+    "swiper": "^3.4.2",
     "vue": "^2.6.11",
-    "vue-awesome-swiper": "^4.1.1",
     "vue-axios": "^3.2.4",
     "vue-cookie": "^1.1.4",
     "vue-lazyload": "^1.3.3",
@@ -33,6 +33,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "mock.js": "^0.2.0",
+    "mockjs": "^1.1.0",
+    "vue-awesome-swiper": "^3.1.3",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.4.0",
     "webpack-dev-server": "^3.11.2"

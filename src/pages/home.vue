@@ -4,11 +4,10 @@
  * @Author: 向北
  * @Date: 2021-02-01 17:16:29
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-06 15:57:11
+ * @LastEditTime: 2021-02-18 18:00:43
 -->
 <template>
   <div>
-    home
     <!-- 调用各个组件整合为模板 -->
     <nav-header></nav-header>
     <router-view></router-view>

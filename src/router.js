@@ -4,7 +4,7 @@
  * @Author: 向北
  * @Date: 2021-02-01 17:00:00
  * @LastEditors: 向北
- * @LastEditTime: 2021-02-12 18:53:26
+ * @LastEditTime: 2021-02-22 01:09:13
  */
 // 导入插件
 import Vue from 'vue';
@@ -14,6 +14,7 @@ import Index from './pages/index';
 import Product from './pages/product';
 import Detail from './pages/detail'
 import Cart from './pages/cart'
+import Login from './pages/login'
 import Order from './pages/order'
 import OrderConfirm from './pages/orderConfirm'
 import OrderList from './pages/orderList'
@@ -52,6 +53,11 @@ export default new Router({
       path: '/cart',
       name: 'cart',
       component: Cart
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/order',
